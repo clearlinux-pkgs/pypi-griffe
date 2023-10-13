@@ -5,7 +5,7 @@
 #
 Name     : pypi-griffe
 Version  : 0.36.5
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/bf/36/9ee645d13096d9f5112c26ab3465649606303234b3af1c70752672563814/griffe-0.36.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bf/36/9ee645d13096d9f5112c26ab3465649606303234b3af1c70752672563814/griffe-0.36.5.tar.gz
 Summary  : Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API.
