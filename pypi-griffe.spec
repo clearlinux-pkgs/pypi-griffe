@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-griffe
-Version  : 0.44.0
-Release  : 46
-URL      : https://files.pythonhosted.org/packages/e3/c0/9275a0e624d82c3ac43dbc3b76013d448799eace73720e463d77370e92f3/griffe-0.44.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e3/c0/9275a0e624d82c3ac43dbc3b76013d448799eace73720e463d77370e92f3/griffe-0.44.0.tar.gz
+Version  : 0.45.0
+Release  : 47
+URL      : https://files.pythonhosted.org/packages/5b/17/a0196b8987916224da2a4a43c59e8b2f36728dea9fd3dcd05412ad319ed3/griffe-0.45.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5b/17/a0196b8987916224da2a4a43c59e8b2f36728dea9fd3dcd05412ad319ed3/griffe-0.45.0.tar.gz
 Summary  : Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API.
 Group    : Development/Tools
 License  : ISC
@@ -25,9 +25,9 @@ BuildRequires : pypi(pdm_backend)
 %description
 # Griffe
 [![ci](https://github.com/mkdocstrings/griffe/workflows/ci/badge.svg)](https://github.com/mkdocstrings/griffe/actions?query=workflow%3Aci)
-[![documentation](https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat)](https://mkdocstrings.github.io/griffe/)
+[![documentation](https://img.shields.io/badge/docs-mkdocs-708FCC.svg?style=flat)](https://mkdocstrings.github.io/griffe/)
 [![pypi version](https://img.shields.io/pypi/v/griffe.svg)](https://pypi.org/project/griffe/)
-[![gitpod](https://img.shields.io/badge/gitpod-workspace-blue.svg?style=flat)](https://gitpod.io/#https://github.com/mkdocstrings/griffe)
+[![gitpod](https://img.shields.io/badge/gitpod-workspace-708FCC.svg?style=flat)](https://gitpod.io/#https://github.com/mkdocstrings/griffe)
 [![gitter](https://badges.gitter.im/join%20chat.svg)](https://app.gitter.im/#/room/#mkdocstrings_griffe:gitter.im)
 
 %package bin
@@ -59,10 +59,10 @@ python3 components for the pypi-griffe package.
 
 
 %prep
-%setup -q -n griffe-0.44.0
-cd %{_builddir}/griffe-0.44.0
+%setup -q -n griffe-0.45.0
+cd %{_builddir}/griffe-0.45.0
 pushd ..
-cp -a griffe-0.44.0 buildavx2
+cp -a griffe-0.45.0 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713536524
+export SOURCE_DATE_EPOCH=1715620470
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
