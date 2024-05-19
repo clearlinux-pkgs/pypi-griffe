@@ -1,5 +1,5 @@
 PKG_NAME := pypi-griffe
-URL = https://files.pythonhosted.org/packages/5b/17/a0196b8987916224da2a4a43c59e8b2f36728dea9fd3dcd05412ad319ed3/griffe-0.45.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ae/07/d533e019f4ef37f38540efbceded89d97fd1f414102775c7a30535d343dc/griffe-0.45.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
