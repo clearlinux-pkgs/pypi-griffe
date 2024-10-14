@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-griffe
-Version  : 1.4.0
-Release  : 63
-URL      : https://files.pythonhosted.org/packages/05/e9/b2c86ad9d69053e497a24ceb25d661094fb321ab4ed39a8b71793dcbae82/griffe-1.4.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/05/e9/b2c86ad9d69053e497a24ceb25d661094fb321ab4ed39a8b71793dcbae82/griffe-1.4.0.tar.gz
+Version  : 1.4.1
+Release  : 64
+URL      : https://files.pythonhosted.org/packages/81/65/f708fd15b91182e8928f5bf335255028c22f5d8a181e8819f3fa8f0230f4/griffe-1.4.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/81/65/f708fd15b91182e8928f5bf335255028c22f5d8a181e8819f3fa8f0230f4/griffe-1.4.1.tar.gz
 Summary  : Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API.
 Group    : Development/Tools
 License  : ISC
@@ -59,10 +59,10 @@ python3 components for the pypi-griffe package.
 
 
 %prep
-%setup -q -n griffe-1.4.0
-cd %{_builddir}/griffe-1.4.0
+%setup -q -n griffe-1.4.1
+cd %{_builddir}/griffe-1.4.1
 pushd ..
-cp -a griffe-1.4.0 buildavx2
+cp -a griffe-1.4.1 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1728663370
+export SOURCE_DATE_EPOCH=1728919711
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
